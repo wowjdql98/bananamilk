@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>레모나 홈페이지</title>
-  <!-- aos -->
+  <title>바나나맛우유 홈페이지</title>
+  <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- 웹폰트 -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
   >
   <!-- 제이쿼리 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <!-- aos js -->
+  <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- 내 자바스크립트 -->
   <script src="js/main.js"></script>
@@ -37,12 +37,12 @@
     <div class="container">
       <h1>
         <a href="index.html">
-          <img src="images/h_logo.png" alt="레모나 경남제약">
+          <img src="images/h-logo.png" alt="빙그레 바나나맛우유">
         </a>
       </h1>
       <nav id="gnb">
         <ul>
-          <li><a href="#main-section1">레모나</a></li>
+          <li><a href="#main-section1">바나나맛우유</a></li>
           <li><a href="#main-section2">제품소개</a></li>
           <li><a href="#">광고</a></li>
         </ul>
@@ -56,28 +56,27 @@
   <!-- 메인 비주얼 -->
   <section id="main-visual">
     <div class="container">
+      <!-- delay, duration 범위: 0 ~ 3000(50단위로 설정) -->
       <div 
-      class="title"
-      data-aos="fade-right"
-      data-aos-delay="50"
-      data-aos-duration="1000"
+        class="title" 
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="1000"
       >
         <div>
-          <h2>우리 모두를 위한<br>
-            LIFE VITAMIN
+          <h2>대한민국 NO.1<br>
+            한결 같은맛과<br>
+            기분좋은 달콤함
           </h2>
-          <p>
-            <span>맛있는 비타민 습관,</span>
-            <span>레모나</span>
-          </p>
         </div>
       </div><!-- title -->
       <div 
-      class="img"
-      data-aos="fade-in"
-      data-aos-delay="1000"
-      data-aos-duration="1000">
-        <img src="images/main-visual-img01.png" alt="레모나">
+        class="img"
+        data-aos="fade-in"
+        data-aos-delay="1000"
+        data-aos-duration="1000"
+      >
+        <img src="images/main-visual.png" alt="바나나맛우유">
       </div>
     </div><!-- container -->
   </section>
@@ -85,58 +84,91 @@
   <section id="main-section1">
     <div class="container">
       <div class="col">
-        <img src="images/lemona-products2.png" alt="레모나">
+        <img src="images/Group 14.png" alt="바나나맛우유">
       </div>
       <div class="col">
         <div class="info">
-          <h2>VITAMIN</h2>
-          <p class="sub-title">6년 연속 브랜드 대상 NO.1 비타민</p>
-          <p>레모나는 1983년 국내 최초로 산제 비타민C로 출시되어 ‘비타민C는 노란색 레모나’라는 이미지를 각인 시키며 장수 브랜드로 사랑받고 있으며 이제는 해외에서도 이너뷰티 제품으로 각광받는 대표적인 한류제품이 되었습니다.</p>
-          <a href="#" class="btn detail-btn">자세히보기</a>
+          <div>
+            <h2>바나나맛 우유</h2>
+            <p class="sub-title">15년 연속 브랜드 파워(K-BPI) 1위</p>
+          </div>
+          <p>1970년대 산업화시대에 대도시로 이주한 국민들이 고향을 떠올릴 수 있도록 넉넉한 항아리 모양으로 디자인 되었습니다. 달콤한 맛과 독특한 생김새로 갖은 별명을 지닌 채, 지금까지도 꾸준히 사랑받는 제품입니다.</p>
+          <a href="#" class="btn btn-detail">자세히 보기</a>
         </div>
       </div>
-    </div>
+    </div><!-- container -->
   </section>
+
+  <!-- 2 x 2 구성 -->
   <section id="main-section2">
     <div class="container">
       <div class="col">
-        <h2>제품소개</h2>
-        <p>아름다운 건강과 행복을 추구하는 경남제약의 레모나를 소개합니다.</p>
-        <a href="#"><img src="images/section-logo.png" alt="레모나로고"></a>
-      </div>
+        <div class="title">
+          <h2>바나나우유 소개</h2>
+          <p>국민의 건강과 행복을 위하는  빙그레의 바나나맛우유를 소개합니다.</p>
+        </div>
+        <img src="images/h-logo.png" alt="바나나맛우유 로고">
+      </div><!-- col -->
       <div class="col">
-        <h2>레모나 히스토리</h2>
-        <p>국민 건강 대표  브랜드 경남제약 레모나의  역사를 소개합니다.</p>
-        <a href="#"><img src="images/icon-history.png" alt="히스토리"></a>
-      </div>
+        <div>
+          <h2>바나나맛 우유  역사</h2>
+          <p>국민의 건강과 행복을 만들어 온 바나나맛 우유의 지난 순간들을 소개합니다.</p>
+        </div>
+        <img src="images/icon-history.png" alt="레모나 히스토리">
+      </div><!-- col -->
       <div class="col youtube">
-        <h2>홍보영상</h2>
-        <p>레모나의 홍보영상을 보실 수 있습니다.</p>
-        <a href="#"><img src="images/icon-play.png" alt="홍보영상"></a>
-      </div>
+        <div>
+          <h2>홍보영상</h2>
+          <p>레모나의 홍보영상을 보실 수 있습니다.</p>
+        </div>
+        <img src="images/icon-play.png" alt="홍보영상">
+      </div><!-- col -->
       <div class="col">
-        <h2>FAQ</h2>
-        <p>레모나에 대해 궁금한 점을 알려드립니다.</p>
-        <a href="#"><img src="images/icon-faq.png" alt="FAQ"></a>
-      </div>
-    </div>
+        <div>
+          <h2>FAQ</h2>
+          <p>바나나맛우유에 대해 궁금한 점을 알려드립니다.</p>
+        </div>
+        <img src="images/icon-faq.png" alt="FAQ">
+      </div><!-- col -->
+    </div><!-- container -->
   </section>
+
+  <section id="main-section3">
+        <img src="images/바나나맛우유미니.jpg" alt="바나나맛우유 미니">
+
+  </section>
+  
   <!-- 모달창 -->
   <div class="modal">
     <div class="box">
       <iframe
-      src="https://www.youtube.com/embed/PZjNU6Vu4Mg" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; 
-      encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-      </iframe>
+       src="https://www.youtube.com/embed/xYYt3GcOPJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <button class="btn-close">
-        <i class="bi bi-x-square"></i>
+        <i class="bi bi-x-circle"></i>
       </button>
-    </div><!--box-->
+    </div><!-- box -->
   </div>
+  <footer id="main-footer">
+    <div class="container">
+      <h1>
+        <a href="#">
+              <img src="images/f_logo.png" alt="빙그레 로고">
+        </a>
+      </h1>
+      <div class="copy">
+          <h2>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</h2>
+          <h2>ⓒ Binggrae all rights reserved.</h2>
+      </div>
+      <div class="sns">
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
 
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,22 +1,23 @@
 /* style.css 공통으로 사용하는 CSS */
 :root {
-  --brand-color: #fec82f;
-  --main-color: #fef200;
-  --sub-color: #ed1b25;
+  --brand-color: #FEF8D6;
+  --main-color: #FAE16B;
+  --sub-color: #ED1C24;
   --bg-color-light: #f1f1f1;
   --text-color-dark: #111;
   --text-color-light: #666;
-    /* 배너 색상 */
-    --banner-bg-color1: #FCEEAD;
-    --banner-bg-color2: #C1A3D9;
-    --banner-bg-color3: #BEDE71;
-  
+
+  /* 배너 색상 */
+  --banner-bg-color1: #FEF8D6;
+
+
   /* header 높이값 */
   --pc-header-height: 90px;
   --mobile-header-height: 60px;
 }
-html{
-  /* 페이지 스무스 스크롤  */
+
+html {
+  /* 페이지 smooth scroll */
   scroll-behavior: smooth;
 }
 
@@ -38,32 +39,38 @@ a {
 ul  {
   list-style-type: none;
 }
-button{
-  border: none;
-  /* background: none; */
-}
+
 button:hover {
   cursor: pointer;
 }
 
-#main-header{
-  z-index: 999;
-}
 #main-header a {
   color: #000;
   text-decoration: none;
   font-weight: 500;
 }
 
-.btn{
-  display: flex;
-  /* padding: 10px; */
+.btn {
+  font-size: 16px;
   width: 245px;
   height: 50px;
-  margin-top: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  /* background: #ED1B25; */
+  color: #000;
+  border: 1px solid var(--sub-color);
+}
+
+.btn-detail {
+  background: #ED1B25;
   color: #fff;
-  background-color: #ED1B25;
+}
+
+#main-header {
+  z-index: 999;
+}
+
+#main-visual {
+  background: var(--banner-bg-color3);
 }

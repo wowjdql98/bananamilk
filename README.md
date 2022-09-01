@@ -1,7 +1,7 @@
 # bananamilk 반응형 웹 홈페이지
 
 ## 개요
-  가변 Full Screen Slide 유형의 홈페이지
+  가변 Full Screen Slide 유형의 홈페이지로 바나나맛우유 홈페이지를 만들었습니다.
 
 ## 작업내용
 0. 시안 및 프로토타입 제작(figma)
